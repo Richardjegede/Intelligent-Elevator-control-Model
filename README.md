@@ -8,7 +8,7 @@ This project is a hybrid engineering solution that bridges the gap between **Mec
 
 ## 🧠 Phase 1: Logic & Schematic Design (The Brain)
 The core intelligence of the system was developed to handle complex multi-floor requests without conflicts.
-<img src="images/circuitdiagram.jpg" alt="Alt text" width="200" height="150">
+<img src="image/circuitdiagram.jpg" alt="Alt text" width="200" height="150">
 
 
 
