@@ -8,7 +8,7 @@ This project is a hybrid engineering solution that bridges the gap between **Mec
 
 ## 🧠 Phase 1: Logic & Schematic Design (The Brain)
 The core intelligence of the system was developed to handle complex multi-floor requests without conflicts.
-
+https://github.com/Richardjegede/Intelligent-Elevator-control-Model/blob/main/image/circuit%20diagram.jpg
 *   **The Challenge:** Prioritizing multiple floor calls without "glitching" or skipping levels.
 *   **The Solution:** 
     *   Developed **Interrupt-driven programming** in **Embedded C** for real-time responsiveness.
