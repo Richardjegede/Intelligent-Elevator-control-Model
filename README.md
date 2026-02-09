@@ -8,9 +8,8 @@ This project is a hybrid engineering solution that bridges the gap between **Mec
 
 ## 🧠 Phase 1: Logic & Schematic Design (The Brain)
 The core intelligence of the system was developed to handle complex multi-floor requests without conflicts.
+![circuitdiagram](https://github.com/user-attachments/assets/f8987551-10f9-4b03-a1b6-acc6469c54a3)
 
-![circuitdiagram](https://github.com/user-attachments/assets/110dc5f2-0877-4e27-a893-e50168b93382)
-![circuitdiagram](https://github.com/user-attachments/assets/110dc5f2-0877-4e27-a893-e50168b93382)
 
 *   **The Challenge:** Prioritizing multiple floor calls without "glitching" or skipping levels.
 *   **The Solution:** 
