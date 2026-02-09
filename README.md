@@ -1,49 +1,47 @@
-🛠️ Project Title: **Intelligent-Elevator-control-Model**
-From Schematic to Structural Reality
+# 🏗️ Intelligent Elevator Control Model
+### *From Schematic to Structural Reality*
 
-**Phase 1: Logic & Schematic Design (The Brain)**
+## 🎯 Project Overview
+This project is a hybrid engineering solution that bridges the gap between **Mechatronics (Hardware)** and **Data Analytics (Software)**. It features a fully functional elevator prototype controlled by an embedded system, designed for precision, safety, and data-driven optimization.
 
-I started by designing the Control Logic using a specialized circuit (as seen in my documentation).![IMG_20250407_172116_827](https://github.com/user-attachments/assets/b307576b-87f7-44a9-8479-70a0d1d38166)
+---
 
-**The Challenge:**
+## 🧠 Phase 1: Logic & Schematic Design (The Brain)
+The core intelligence of the system was developed to handle complex multi-floor requests without conflicts.
 
-Creating a system that could prioritize multiple floor calls without "glitching" or skipping levels.
+*   **The Challenge:** Prioritizing multiple floor calls without "glitching" or skipping levels.
+*   **The Solution:** 
+    *   Developed **Interrupt-driven programming** in **Embedded C** for real-time responsiveness.
+    *   Engineered a **Microcontroller-based logic** to process hall calls and cabin commands.
+    *   Integrated **NPN/PNP transistors in an H-Bridge configuration** for precise, bi-directional DC motor control.
 
-**The Solution:**
+---
 
-I engineered a Microcontroller-based logic using Interrupt-driven programming in Embedded C.
+## 🦴 Phase 2: Mechanical Fabrication (The Skeleton)
+Moving from the breadboard to a rigid physical frame to ensure industrial-grade stability.
 
-I integrated NPN/PNP transistors in an H-Bridge configuration to manage the motor's bi-directional movement (Up/Down) with precision.
+*   **Linear Actuation:** I utilized a **threaded lead-screw mechanism** (as seen in rear-view documentation) to convert high-speed DC motor rotation into stable, high-torque vertical lift.
+*   **Structural Integrity:** Fabricated the chassis using lightweight, rigid materials to eliminate wobble during transit.
+*   **Sensor Integration:** 
+    *   Mounted **IR Proximity Sensors** at each floor level.
+    *   These act as the "eyes" of the system, sending instantaneous stop signals to the MCU when the cabin aligns with the floor.
 
-**Phase 2: Mechanical Fabrication (The Skeleton)**
+---
 
-![IMG_20250407_172037_566](https://github.com/user-attachments/assets/9a86c969-6580-4942-a025-b933cc19357f)
+## 📊 Phase 3: The "Data" Evolution (System Intelligence)
+As a **Systems Data Analyst**, I designed this prototype to be a source of actionable insights, not just a mechanical lift.
 
-Using the "Rear View" documentation, I moved from the breadboard to the physical frame.
+*   **Performance Optimization:** By logging transit time between floors, I analyze **Motor Efficiency** and detect mechanical friction in the lead-screw.
+*   **Future Roadmap - Predictive Maintenance:**
+    *   Developing a **Power BI Dashboard** to visualize sensor data.
+    *   The goal is to implement **Predictive Alerts** that notify operators of potential mechanical failure before it occurs.
 
-**Linear Actuation:**
+---
 
-I chose a threaded lead-screw mechanism (visible in the rear-view photo) to convert the high-speed rotation of the DC motor into stable,
-high-torque vertical lift. 
+## 🛠️ Tech Stack
+*   **Languages:** Embedded C, Python, SQL
+*   **Hardware:** Microcontrollers, IR Sensors, H-Bridge Drivers, DC Motors
+*   **Tools:** Power BI (Analytics), Circuit Schematic Tools
 
-**Structural Integrity:**
-
-I fabricated the main chassis using lightweight but rigid materials to ensure zero-wobble during cabin transit. 
-
-**Sensor Integration:**
-
-I strategically mounted IR Proximity Sensors at each floor level. 
-
-These act as the "eyes" of the system, sending a stop signal to the brain the moment the cabin aligns with the floor. 
-
-**Phase 3: The "Data" Evolution (System Intelligence)**
-
-As a Systems Data Analyst, I designed this prototype to be more than just a lift; it's a data source.
-
-**Optimization:** 
-
-By tracking the time taken between floors, I can analyze the Motor Efficiency and identify potential friction points in the lead-screw.
-
-**Future Vision:**
-
-I am currently developing a Predictive Maintenance Dashboard in Power BI that uses this sensor data to alert operators before a mechanical failure occurs.
+---
+*Developed by Richard A. Jegede*
