@@ -8,15 +8,31 @@ This project is a hybrid engineering solution that bridges the gap between **Mec
 
 ## 🧠 Phase 1: Logic & Schematic Design (The Brain)
 The core intelligence of the system was developed to handle complex multi-floor requests without conflicts.
+
 <img src="image/circuitdiagram.jpg" alt="Alt text" width="200" height="150">
-
-
 
 *   **The Challenge:** Prioritizing multiple floor calls without "glitching" or skipping levels.
 *   **The Solution:** 
     *   Developed **Interrupt-driven programming** in **Embedded C** for real-time responsiveness.
     *   Engineered a **Microcontroller-based logic** to process hall calls and cabin commands.
     *   Integrated **NPN/PNP transistors in an H-Bridge configuration** for precise, bi-directional DC motor control.
+      
+### 🕹️ The Intelligent Control Logic
+In this project, I moved away from simple 'Up/Down' switching to a **Dynamic Priority System**. 
+
+Here is how the brain works:
+
+**The Priority Queue:**
+
+Instead of just moving to the last button pressed, the system uses **Conditional Logic** to check the current cabin position vs floor requests, minimizing 'Travel Time' and 'Power Consumption'.
+
+**Interrupt-Driven Navigation:**
+
+I implemented **External Interrupts (ISR)** in the Embedded C code. When an IR Sensor aligns with the cabin, it triggers an immediate motor-cut for **Millimeter Precision**.
+
+*   **H-Bridge Safety Protocol:** To protect the **NPN/PNP Transistors** from back-EMF, I programmed a **Dead-Time Delay** (0.5s) during direction changes.
+  
+*   **Data Logging:** The logic calculates 'Duty Cycles' to flag **'Friction Alerts'** for predictive maintenance.
 
 ---
 
